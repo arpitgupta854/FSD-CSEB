@@ -1,31 +1,60 @@
-.container{
-   background-color: aqua;
-   height: 400px;
-   width: 400px;
-   margin-top: 100px;
-   border: 2px solid red;
-   display: flex;
-   gap: 10px;
-
+/* .container{
+    background-color:antiquewhite;
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    border: 2px solid red;
+    box-sizing: content-box;
 }
 .child1{
-    border: 2px solid red;
-    height: 100px;
+    background-color: aquamarine;
     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dotted blue;
+
+} */
+ /* div {
+    background-color: aqua;
+ } */
+ .container{
+    background-color: aqua;
+    width: 1200px;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .child1,.child2,.child3,.child4{
+    width: 250px;
+    height: 300px;
+    border: 2px  solid red;
+    
+  }
+
+  .child1{
+    display: flex;
+    gap: 6px;
+  }
+  .child11,.child12,.child13,.child14{
+    border: 2px solid black;
+  }
+  .child11{
+    background-color: gold;
+  }
+  .child12{
+    background-color: aquamarine;
+  }
+  .child13{
     background-color: black;
-
-}
-.child2{
-    border: 2px solid red;
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-
-}
-.child3{
-    border: 2px solid red;
-    height: 100px;
-    width: 100px;
-    background-color: rgb(44, 21, 21);
-
-}
+  }
+  .child14{
+    background-color: brown;
+  }
